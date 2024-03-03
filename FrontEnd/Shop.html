@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa; 
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      max-width: 18rem;
+      margin: 20px;
+      border: 2px solid rgb(79, 74, 74);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.337);
+      cursor: pointer;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .shop-now-heading {
+      font-style: italic;
+      text-align: center;
+      width: 100%;
+    }
+    a{
+      text-decoration: none;
+     }
+    .company
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 200px;
+      font-size: 53px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .company:hover
+    {
+      transform: scale(1.05);
+    }
+    nav {
+      background-color: rgb(0, 0, 0);
+      text-align: center;
+      font-size: 19px;
+      font-weight: 300;
+      word-spacing: 50px;
+      padding: 10px 15px;
+  }
+  nav a {
+      color: peachpuff;
+      font-family: 'Poppins', sans-serif;
+  }
+  nav a:hover
+  {
+      color: #f2f2f2;
+      zoom: 1.05;
+  }
+  h1{
+    font-size: 70px;
+    margin: 0;
+    position: relative;
+    bottom: 8px;
+  }
+  </style>
+  <title>Shop</title>
+</head>
+<body>
+  <nav>
+    <a href="./home.html">Home</a>
+    <a href="./index (1).html">Login</a>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">ContactUs</a>
+  </nav>
+
+  <div class="container">
+    <div class="shop-now-heading">
+      <h1>Shop Now</h1>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-6">
+        <a href="./amazon.html" class="card">
+          <div class="company" style="background: #FFB900; color: black;">amazon⤻</div>
+        </a>
+      </div>
+      <div class="col-md-6">
+        <a href="./flipkart.html" class="card">
+          <div class="company" style="background: #F8E831; color: #047bdf"><i>Flipkart</i></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <a href="./swiggy.html" class="card">
+          <div class="company" style="background: #FC8019; color: #f2f2f2; text-transform:uppercase; letter-spacing:3px;">Swiggy</div>
+        </a>
+      </div>
+      <div class="col-md-6">
+        <a href="./zomato.html" class="card">
+          <div class="company" style="background-color: #d72937; color:white;"><i>zomato</i></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        h1{
+            font-size: 60px;
+            color: #f2f2f2;
+            letter-spacing: 1.5px;
+            font-family: 'Pacifico', cursive;
+            background-color: rgb(60, 60, 206);
+            padding: 30px;
+            margin: 0;
+        }
+        body {
+            font-family: Cambria, sans-serif;
+            background-color: #f2f2f2;
+            height: 100vh;
+            margin:0;
+            padding: 0;
+        }
+        header {
+            background-color: beige;
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(60, 60, 206);   
+            border: 1px solid  rgb(48, 43, 43);
+            border-width: 1.5px 0;
+            text-align: center;
+            font-size: 19px;
+            font-weight: 300;
+            word-spacing: 50px;
+            padding: 10px 15px;
+        }
+        nav a {
+            color: #f2f2f2;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav a:hover
+        {
+            color: black;
+            zoom: 1.05; 
+        }
+        footer {
+            background-color: rgb(3, 3, 15);
+            color: whitesmoke;
+            text-transform: capitalize;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            padding: 22px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .shop-card {
+            max-width: 18rem;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          .card{
+            width: 300px;
+            height: 360px;
+          }
+          .card:hover
+          {
+            transform: scale(1.05);
+          }
+          .card-img-top {
+            object-fit: cover;
+            height: 200px;
+          }
+      
+          .card-body {
+            padding: 20px;
+          }
+      
+          .shop-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+          }
+      
+          .shop-address {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+          }
+      
+          .shop-now-btn {
+            width: 95%;
+            background: linear-gradient(-140deg, #c850c0, #4158d0);
+            border-radius: 10px;
+            font-size: 1.2rem;
+            color: #f2f2f2;
+          }
+          .shop-now-btn:hover{
+            transform: scale(1.05);
+          }
+          p{
+            margin: 0;
+          }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Peepl</h1>
+    </header>
+    <nav>
+        <a href="./home.html">Home</a>
+        <a href="./index (1).html">Login</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">ContactUs</a>
+    </nav>
+        <div class="container mt-5">
+            <div class="card shop-card">
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Shop Image">
+              <div class="card-body">
+                <h5 class="card-title shop-name">Sambhu Da's Store</h5>
+                <p class="card-text shop-address">157/F Nilgunj Rd , Panihati</p>
+                <a href="./Shop.html" class="btn btn-primary shop-now-btn">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <footer>
+        <p>&copy;  2023 Peepl Pvt. Ltd</p>
+    </footer>
+</body>
+</html>
